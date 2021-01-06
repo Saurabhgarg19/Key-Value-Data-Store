@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const moment = require('moment');
 const sizeof = require('object-sizeof');
 
-class maindb {
+class Maindb {
     constructor(){}
 
     async create(name,path="./datastore"){
@@ -124,4 +124,4 @@ class maindb {
     }
 }
 
-module.exports = maindb;
+module.exports = Maindb;
